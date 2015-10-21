@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<!--[if lte IE 8]><html class="ng-csp ie ie8 lte9 lte8" data-placeholder-focus="false" lang="en" ><![endif]-->
+<!--[if IE 9]><html class="ng-csp ie ie9 lte9" data-placeholder-focus="false" lang="en" ><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--><html class="ng-csp" data-placeholder-focus="false" lang="en" ><!--<![endif]-->
+	<head data-requesttoken="f9nLRG1VN+1Pd4u9zwzCw1ZWyzJ6zQ">
+		<meta charset="utf-8">
+		<title>
+		ownCloud		</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+		<link rel="shortcut icon" type="image/png" href="/owncloud/core/img/favicon.png">
+		<link rel="apple-touch-icon-precomposed" href="/owncloud/core/img/favicon-touch.png">
+					<link rel="stylesheet" href="/owncloud/core/css/styles.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/core/css/header.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/core/css/mobile.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/core/css/icons.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/core/css/fonts.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/core/css/apps.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/core/css/fixes.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/core/css/multiselect.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/core/vendor/jquery-ui/themes/base/jquery-ui.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/core/css/jquery-ui-fixes.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/core/css/jquery-tipsy.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/core/css/jquery.ocdialog.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/core/css/share.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/apps/files_versions/css/versions.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/apps/files_videoviewer/css/style.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/apps/files_videoviewer/css/mediaelementplayer.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/apps/firstrunwizard/css/colorbox.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/apps/firstrunwizard/css/firstrunwizard.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/apps/gallery/css/slideshow.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/apps/files_sharing/css/public.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/apps/files_sharing/css/mobile.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/apps/files/css/files.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+					<link rel="stylesheet" href="/owncloud/apps/files/css/upload.css?v=057e6b1bde6f694ef8840229b47ac803" media="screen">
+							<script src="/owncloud/index.php/core/js/oc.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/vendor/jquery/jquery.min.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/vendor/jquery-migrate/jquery-migrate.min.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/vendor/jquery-ui/ui/jquery-ui.custom.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/vendor/underscore/underscore.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/vendor/moment/min/moment-with-locales.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/vendor/handlebars/handlebars.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/vendor/blueimp-md5/js/md5.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/placeholders.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/jquery-tipsy.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/compatibility.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/jquery.ocdialog.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/oc-dialogs.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/js.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/l10n.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/octemplate.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/eventsource.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/config.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/search/js/search.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/oc-requesttoken.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/apps.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/vendor/snapjs/dist/latest/snap.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/placeholder.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/jquery.avatar.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/avatar.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/backgroundjobs.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/core/js/share.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files_sharing/js/share.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files_sharing/js/external.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files_versions/js/versions.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files_pdfviewer/js/previewplugin.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files_videoviewer/js/viewer.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/firstrunwizard/js/jquery.colorbox.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/firstrunwizard/js/firstrunwizard.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/gallery/js/jquery.mousewheel-3.1.1.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/gallery/js/slideshow.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/gallery/js/public.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files/js/file-upload.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files_sharing/js/public.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files/js/fileactions.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files/js/jquery.iframe-transport.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files/js/jquery.fileupload.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files/js/filesummary.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files/js/breadcrumb.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files/js/files.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files/js/filelist.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					<script src="/owncloud/apps/files/js/keyboardshortcuts.js?v=057e6b1bde6f694ef8840229b47ac803"></script>
+					</head>
+	<body id="body-public">
+		<noscript>
+	<div id="nojavascript">
+		<div>
+			This application requires JavaScript for correct operation. Please <a href="http://enable-javascript.com/" target="_blank" rel="noreferrer">enable JavaScript</a> and reload the page.		</div>
+	</div>
+</noscript>
+		
+
+<div id="notification-container">
+	<div id="notification" style="display: none;"></div>
+</div>
+
+<input type="hidden" id="filesApp" name="filesApp" value="1">
+<input type="hidden" id="isPublic" name="isPublic" value="1">
+<input type="hidden" name="dir" value="" id="dir">
+<input type="hidden" name="downloadURL" value="https://radcheeky.dip.jp/owncloud/index.php/s/lha90qBglsEYALX/download" id="downloadURL">
+<input type="hidden" name="sharingToken" value="lha90qBglsEYALX" id="sharingToken">
+<input type="hidden" name="filename" value="report.pdf" id="filename">
+<input type="hidden" name="mimetype" value="application/pdf" id="mimetype">
+<input type="hidden" name="previewSupported" value="false" id="previewSupported">
+<input type="hidden" name="mimetypeIcon" value="/owncloud/core/img/filetypes/application-pdf.png" id="mimetypeIcon">
+<input type="hidden" name="filesize" value="949522" id="filesize">
+<input type="hidden" name="maxSizeAnimateGif" value="10" id="maxSizeAnimateGif">
+
+
+<header><div id="header" class="share-file">
+		<a href="/owncloud/index.php"
+		   title="" id="owncloud">
+			<div class="logo-icon svg">
+			</div>
+		</a>
+
+		<div class="header-appname-container">
+			<h1 class="header-appname">
+				ownCloud			</h1>
+		</div>
+
+		<div id="logo-claim" style="display:none;"></div>
+		<div class="header-right">
+			<span id="details">
+									<span id="save" data-protected="false"
+						  data-owner="09b13703" data-name="report.pdf">
+					<button id="save-button">Add to your ownCloud</button>
+					<form class="save-form hidden" action="#">
+						<input type="text" id="remote_address" placeholder="example.com/owncloud"/>
+						<button id="save-button-confirm" class="icon-confirm svg"></button>
+					</form>
+				</span>
+								<a href="https://radcheeky.dip.jp/owncloud/index.php/s/lha90qBglsEYALX/download" id="download" class="button">
+					<img class="svg" alt="" src="/owncloud/core/img/actions/download.svg"/>
+					<span id="download-text">Download</span>
+				</a>
+			</span>
+		</div>
+	</div></header>
+<div id="content">
+	<div id="preview">
+									<!-- Preview frame is filled via JS to support SVG images for modern browsers -->
+				<div id="imgframe"></div>
+						<div class="directDownload">
+				<a href="https://radcheeky.dip.jp/owncloud/index.php/s/lha90qBglsEYALX/download" id="downloadFile" class="button">
+					<img class="svg" alt="" src="/owncloud/core/img/actions/download.svg"/>
+					Download report.pdf (927 kB)
+				</a>
+			</div>
+			<div class="directLink">
+				<label for="directLink">Direct link</label>
+				<input id="directLink" type="text" readonly value="https://radcheeky.dip.jp/owncloud/index.php/s/lha90qBglsEYALX/download">
+			</div>
+			</div>
+
+</div>
+<footer>
+	<p class="info">
+		<a href="https://owncloud.org" target="_blank" rel="noreferrer">ownCloud</a> – web services under your control	</p>
+</footer>
+	</body>
+</html>
