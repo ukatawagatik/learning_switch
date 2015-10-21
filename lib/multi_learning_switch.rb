@@ -17,6 +17,7 @@ class MultiLearningSwitch < Trema::Controller
 
   def packet_in(datapath_id, message)
     return if message.destination_mac.reserved?
+    logger.info "スイッチ #{datapath_id} にて Packet_In が発生しました"
     @fdbs.fetch(datapath_id).learn(message.source_mac, message.in_port)
     flow_mod_and_packet_out message
   end
@@ -39,6 +40,7 @@ class MultiLearningSwitch < Trema::Controller
       match: ExactMatch.new(message),
       actions: SendOutPort.new(port_no)
     )
+    logger.info "スイッチ #{message.datapath_id} の FlowTable にルールを追加しました"
   end
 
   def packet_out(message, port_no)
@@ -47,5 +49,6 @@ class MultiLearningSwitch < Trema::Controller
       packet_in: message,
       actions: SendOutPort.new(port_no)
     )
+    logger.info "スイッチ #{message.datapath_id} のポート #{port_no} からパケットを送信しました"
   end
 end
